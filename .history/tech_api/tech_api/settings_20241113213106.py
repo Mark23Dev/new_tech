@@ -16,9 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Security settings
 SECRET_KEY = config('SECRET_KEY', default='q16jdu+ox#vp4l#hqjzje-b!m=ysqtc4jk(kd=*2pts&bist(6')
 DEBUG = config('DEBUG', default=False, cast=bool)
-
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(',')
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 # Application definition
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -111,7 +109,7 @@ DATABASES = {
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=config('DATABASE_URL', default='postgresql://fusion_force_user:lBIdSeeZ9sCSTddiu62vgneOGVXNGE6I@dpg-csq2f452ng1s7398l260-a.oregon-postgres.render.com/fusion_force')
+        default=config('DATABASE_URL', default='')
     )
 }
 
