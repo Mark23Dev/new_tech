@@ -1,0 +1,46 @@
+# Core Django
+Django
+
+# Database
+psycopg2-binary
+
+# Django REST Framework
+djangorestframework
+djangorestframework-simplejwt
+
+# Additional Django extensions
+django-cors-headers
+django-allauth
+django-crispy-forms
+django-secure
+django-two-factor-auth
+
+# API Integrations
+requests
+discord.py
+
+# Data handling and NLP
+django-jsonfield-backport
+pytz
+nltk
+
+# Caching and Background Tasks
+django-redis
+celery
+django-celery-beat
+
+# ORM and Database Optimization
+django-extensions
+pandas
+
+# Testing and Debugging
+pytest-django
+pytest
+coverage
+django-debug-toolbar
+
+# Documentation
+drf-yasg
+
+# Environment Management
+python-decouple

@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+myenv/
+env/
+venv/
+
+# Django specific
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pdb
+
+# Local settings
+local_settings.py
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Eclipse
+.project
+.pydevproject
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+

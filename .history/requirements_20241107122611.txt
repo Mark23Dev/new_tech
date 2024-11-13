@@ -1,0 +1,56 @@
+# Core Django
+Django
+django-dotenv
+
+# Database
+psycopg2-binary
+dj-database-url
+
+# Django REST Framework
+djangorestframework
+djangorestframework-simplejwt
+#djangorestframework-authtoken
+
+# Additional Django extensions
+django-cors-headers
+django-allauth
+django-crispy-forms
+django-secure
+django-two-factor-auth
+#smtplib #already available
+
+# API Integrations
+requests
+discord.py
+
+# Data handling and NLP
+django-jsonfield-backport
+pytz
+nltk
+
+# Caching and Background Tasks
+django-redis
+celery
+django-celery-beat
+django-celery-results
+
+# ORM and Database Optimization
+django-extensions
+pandas
+
+# Testing and Debugging
+pytest-django
+pytest
+coverage
+django-debug-toolbar
+
+# Documentation
+drf-yasg
+
+# Environment Management
+python-decouple
+
+#Additional 
+python-dotenv
+requests
+redis
